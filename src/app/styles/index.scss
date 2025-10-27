@@ -1,0 +1,15 @@
+@use "themes/blue.scss";
+@use "themes/pink.scss";
+@use "global.scss";
+@use "reset.scss";
+
+:root{
+    --primary-color: #b6349a;
+}
+
+body{
+    font: var(--font-m);
+    min-height: 100vh;
+    background: var(--white);
+    color: var(--black)
+}
