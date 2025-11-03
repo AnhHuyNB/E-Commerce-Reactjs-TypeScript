@@ -1,6 +1,6 @@
 import  { useEffect, useState, type ReactNode } from 'react'
-import { LOCAL_STORAGE_THEME_KEY, Theme, type themeType } from '../../../shared/ui/config/theme/themeContext'
-import { themeContext } from '../../../shared/ui/config/theme/themeContext'
+import { LOCAL_STORAGE_THEME_KEY, Theme, type themeType } from '../../../shared/config/theme/themeContext'
+import { themeContext } from '../../../shared/config/theme/themeContext'
 
 interface ThemeProviderProps {
   children: ReactNode;

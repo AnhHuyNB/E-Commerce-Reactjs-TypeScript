@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import style from './HomePage.module.scss'
-import { useTheme } from '../../../shared/ui/config/theme/useTheme'
+import { useTheme } from '../../../shared/config/theme/useTheme'
 import { useTranslation } from 'react-i18next'
 
 const HomePage = () => {
