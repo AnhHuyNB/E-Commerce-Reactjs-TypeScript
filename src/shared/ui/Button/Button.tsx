@@ -12,14 +12,14 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     size?: ButtonSize,
     form?: ButtonForm,
     theme?: ButtonTheme,
-    disabled: boolean
+    // disabled: boolean
 }
 
 const Button = (props: ButtonProps) => {
     const { children, className, size ='sm', theme = 'primary', form = 'pill', disabled = false, ...rest } = props
-  return 
+  return (
     <button 
-      {...rest} 
+      {...rest}
       disabled={disabled} 
       className={cn(
         styles.button,
@@ -34,5 +34,6 @@ const Button = (props: ButtonProps) => {
     >
       {children}
     </button>
+  )
 }
 export default Button
