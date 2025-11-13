@@ -1,3 +1,30 @@
 {
-    "hello": "xin chao"
+    "header": {
+        "cart": "Giỏ hàng",
+        "searchBy": "Tìm kiếm",
+        "login": "Đăng nhập"
+    },
+    "footer": {
+        "about": "Giới thiệu",
+        "aboutUs": "Về chúng tôi",
+        "ourBranches": "Chi nhánh của chúng tôi",
+        "changelog": "Nhật ký thay đổi",
+        "quickLinks": "Liên kết nhanh",
+        "faqs": "Câu hỏi thường gặp",
+        "recipes": "Công thức",
+        "contactUs": "Liên hệ với chúng tôi",
+        "helpSupport": "Hỗ trợ & Trợ giúp",
+        "termsOfService": "Điều khoản dịch vụ",
+        "privacyPolicy": "Chính sách bảo mật",
+        "security": "Bảo mật",
+        "company": "Công ty",
+        "blog": "Blog",
+        "contact": "Liên hệ",
+        "social": "Mạng xã hội",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "copyright": "Tất cả các quyền được bảo lưu © {{year}} {{company}}"
+
+    }
 }
