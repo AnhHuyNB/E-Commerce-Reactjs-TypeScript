@@ -26,5 +26,18 @@
         "twitter": "Twitter",
         "copyright": "Tất cả các quyền được bảo lưu © {{year}} {{company}}"
 
+    },
+    "pageLoader": {
+        "loading": "Đang tải trang..."
+    },
+    "notFound": {
+        "title": "Không tìm thấy trang",
+        "description": "Trang bạn đang tìm không tồn tại. Hãy thử tìm lại hoặc sử dụng nút quay lại bên dưới.",
+        "goBack": "Quay lại"
+    },
+    "pageError": {
+        "title": "Đã xảy ra lỗi",
+        "description": "Xin lỗi – đã có lỗi không mong muốn xảy ra. Vui lòng thử tải lại trang hoặc quay lại sau.",
+        "reload": "Quay lại"
     }
 }

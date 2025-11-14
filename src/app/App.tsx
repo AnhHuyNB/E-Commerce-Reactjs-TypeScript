@@ -4,9 +4,7 @@ import { AppRouter } from "./providers/router/ui/AppRouter"
 function App() {
 
   return (
-    <Suspense fallback="loading...">
       <AppRouter />
-    </Suspense>
   )
 }
 
