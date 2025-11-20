@@ -7,15 +7,18 @@ import "./app/styles/index.scss"
 import './shared/config/i18n/i18n'
 import { BrowserRouter } from 'react-router'
 import { ErrorBoundary } from './app/providers/ErrorBounary/ui/ErrorBoundary'
+import { StoreProvider } from './app/providers/StoreProvider/ui/StoreProvider'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
-      <ThemeProvider>
-        <ErrorBoundary>
-          <App />
-        </ErrorBoundary>
-      </ThemeProvider>
-    </BrowserRouter>
+    <StoreProvider>
+      <BrowserRouter>
+        <ThemeProvider>
+          <ErrorBoundary>
+            <App />
+          </ErrorBoundary>
+        </ThemeProvider>
+      </BrowserRouter>
+    </StoreProvider>
   </StrictMode>,
 )
