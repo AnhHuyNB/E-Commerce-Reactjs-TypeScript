@@ -11,3 +11,5 @@ export const AuthMethod = {
 } as const 
 
 export type AuthMethodType = (typeof AuthMethod)[keyof typeof AuthMethod]
+
+export const LOCAL_STORAGE_USER_KEY = "user";

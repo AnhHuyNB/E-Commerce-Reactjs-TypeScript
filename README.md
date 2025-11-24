@@ -71,3 +71,7 @@ export default defineConfig([
   },
 ])
 ```
+
+## tài liệu học tập
+
+https://www.youtube.com/watch?v=aLiJtZPFWbw&t=2127s

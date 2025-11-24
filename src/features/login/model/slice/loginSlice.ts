@@ -1,6 +1,7 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import type { LoginFormSchema } from "../types/loginFormSchema";
 import { AuthMethod, type AuthMethodType } from "../../../../shared/config/auth/auth";
+import { login } from "../../../../entities/user/model/services/login";
 
 const initialState: LoginFormSchema = {
     email: '',
@@ -32,6 +33,19 @@ const loginSlice = createSlice({
             state.email = ''
             state.password = ''
         }
+    },
+    extraReducers: (builder) => {
+        builder
+        .addCase(login.pending, (state) => {
+            state.isLoading = true;
+        })
+        .addCase(login.fulfilled, (state) => {
+            state.isLoading = false
+        })
+        .addCase(login.rejected, (state, action) => {
+            state.isLoading = false;
+            state.error = action.payload
+        })
     }
 })
 
